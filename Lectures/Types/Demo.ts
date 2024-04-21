@@ -49,15 +49,6 @@ interface ITrack {
   //**Examples
   //******************************************************************
   
-  const myEditor1: IEditor = {
-    name: "Fernando",
-    age: 31,
-    address: {
-      street: "Unknown",
-      city: "Unknown",
-      zipCode: 11111,
-    },
-  };
   const mySong: ISong = {
     title: "Shape of You",
     artist: "Ed Sheeran",
