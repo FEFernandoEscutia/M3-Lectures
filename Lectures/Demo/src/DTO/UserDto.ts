@@ -1,7 +1,7 @@
 interface UserDto {
   name: string;
   email: string;
-  age: string;
+  age: number;
   active: boolean;
 
 }

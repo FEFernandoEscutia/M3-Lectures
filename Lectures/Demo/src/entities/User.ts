@@ -54,7 +54,7 @@ export class User {
   email: string;
 
   @Column()
-  age: string;
+  age: number;
 
   @Column()
   active: boolean;

@@ -16,5 +16,4 @@ export const AppDataSource = new DataSource({
   migrations: [],
 });
 
-export const UserModel = AppDataSource.getRepository(User);
-export const VehicleModel = AppDataSource.getRepository(Vehicle);
+

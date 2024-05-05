@@ -33,7 +33,7 @@ export const createVehicleController = async (req: Request, res: Response) => {
   } catch (error) {
     console.log("error while creating a new vehicle");
 
-    res.json({ message: "error while creating a new vehicle the user does not exist or there is some missing" });
+    res.status(400).json({ message: "error while creating a new vehicle the user does not exist or there is some missing" });
   }
 };
 
